@@ -1,25 +1,25 @@
 import TitleCard from "../../../components/Cards/TitleCard"
 
 const userSourceData = [
-    {source : "Facebook Ads", count : "26,345", conversionPercent : 10.2},
-    {source : "Google Ads", count : "21,341", conversionPercent : 11.7},
-    {source : "Instagram Ads", count : "34,379", conversionPercent : 12.4},
-    {source : "Affiliates", count : "12,359", conversionPercent : 20.9},
-    {source : "Organic", count : "10,345", conversionPercent : 10.3},
+    {source : "Ms. Smith", count : "Math in Class", conversionPercent : 40},
+    {source : "Ms. Smith", count : "Math out of Class", conversionPercent : 40},
+    {source : "Mr. Bore", count : "Reading in Class", conversionPercent : 60},
+    {source : "Mr. Bore", count : "Writing in Class", conversionPercent : 60},
+    {source : "Ms. Readman", count : "Reading out of Class", conversionPercent : 60},
 ]
 
 function UserChannels(){
     return(
-        <TitleCard title={"User Signup Source"}>
+        <TitleCard title={"Support Team"}>
              {/** Table Data */}
              <div className="overflow-x-auto">
                 <table className="table w-full">
                     <thead>
                     <tr>
                         <th></th>
-                        <th className="normal-case">Source</th>
-                        <th className="normal-case">No of Users</th>
-                        <th className="normal-case">Conversion</th>
+                        <th className="normal-case">Member</th>
+                        <th className="normal-case">Subject</th>
+                        <th className="normal-case">Service Time</th>
                     </tr>
                     </thead>
                     <tbody>
