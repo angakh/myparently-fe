@@ -43,7 +43,7 @@ function Login(){
                         <LandingIntro />
                 </div>
                 <div className='py-24 px-10'>
-                    <h2 className='text-2xl font-semibold mb-2 text-center'>Login</h2>
+                    <h2 className='text-2xl font-semibold mb-2 text-center text-primary'>Login</h2>
                     <form onSubmit={(e) => submitForm(e)}>
 
                         <div className="mb-4">
